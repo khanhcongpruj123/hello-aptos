@@ -1,0 +1,22 @@
+{
+  "name": "demo-wallet-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "idev",
+  "license": "MIT",
+  "scripts": {
+    "run-script": "node --loader ts-node/esm"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.35",
+    "aptos": "^0.0.20",
+    "buffer": "^6.0.3",
+    "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.1.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
