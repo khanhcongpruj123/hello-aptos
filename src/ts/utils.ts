@@ -127,4 +127,9 @@ export async function transfer(
     return await executeTransactionWithPayload(client, owner, payload);
   }
 
+export async function getTransaction(address:String) {
+
+  
+}
+  
 
