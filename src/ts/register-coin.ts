@@ -6,7 +6,7 @@ import { registerCoin } from './utils'
 const client = new AptosClient('https://fullnode.devnet.aptoslabs.com')
 
 // init account
-const privateKey = '0x26630d32b25fc5559f87e78e8db314b35a73b321685488dea42b14e557e234e8'
+const privateKey = '0x904c57638a81b30b1c58f5852dfcf8b04fa53dec2df385c35336582d76e493d1'
 const account = new Account(HexString.ensure(privateKey).toUint8Array(), undefined)
 console.log(`Init account success: ${account.address()}`)
 

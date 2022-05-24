@@ -1,0 +1,11 @@
+[package]
+name = "tinycoin"
+version = "0.0.0"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+
+[addresses]
+Std = "0x1"
+TinyCoin = "0x39869c575eb1cb2db5a18be60b9eb703a1327c20b288a64756062d80a16ea2a2"
+
